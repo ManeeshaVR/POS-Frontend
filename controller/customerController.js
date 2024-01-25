@@ -9,7 +9,7 @@ const address = $('#address');
 const contact = $('#contact');
 const customer_btn = $('#customer_btn button');
 
-const url = 'http://localhost:8082/customer';
+const url = 'http://localhost:8082/pos_back_war_exploded/customer';
 
 //load the customer table
 const loadCustomerTable = function () {

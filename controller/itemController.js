@@ -9,7 +9,7 @@ const unit_price = $('#unitPrice');
 const qty = $('#qty');
 const item_btns = $('#item_btn button');
 
-const url = 'http://localhost:8082/item';
+const url = 'http://localhost:8082/pos_back_war_exploded/item';
 
 //add item
 item_btns.eq(0).on('click', () => {

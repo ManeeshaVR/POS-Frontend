@@ -5,9 +5,9 @@ const customer_id = $('#order_detail_customer_id');
 const date = $('#order_details_date');
 const discount = $('#order_details_discount');
 
-const url = 'http://localhost:8082/order';
-const url2 = 'http://localhost:8082/orderDetails';
-const url3 = 'http://localhost:8082/item';
+const url = 'http://localhost:8082/pos_back_war_exploded/order';
+const url2 = 'http://localhost:8082/pos_back_war_exploded/orderDetails';
+const url3 = 'http://localhost:8082/pos_back_war_exploded/item';
 
 
 $('tbody').eq(3).on('click', 'tr', function () {
