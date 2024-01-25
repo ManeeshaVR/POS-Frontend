@@ -22,10 +22,10 @@ const balance = $('#balance');
 const cart_btn = $('.cart_btn');
 const order_btn = $('.order_btn');
 
-const url = 'http://localhost:8082/pos_back_war_exploded/order';
-const url2 = 'http://localhost:8082/pos_back_war_exploded/orderDetails';
-const url3 = 'http://localhost:8082/pos_back_war_exploded/customer';
-const url4 = 'http://localhost:8082/pos_back_war_exploded/item';
+const url = 'http://localhost:8082/order';
+const url2 = 'http://localhost:8082/orderDetails';
+const url3 = 'http://localhost:8082/customer';
+const url4 = 'http://localhost:8082/item';
 
 let cart = [];
 
